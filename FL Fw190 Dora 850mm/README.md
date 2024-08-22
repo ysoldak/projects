@@ -193,22 +193,22 @@ Time to add FPV Combat system.
 
 
 ### Assembly
-- Secure combat board to the base via 3D printed mounts, the board shall be centered;
-- Glue sensor holders to each side of fuselage, roughly between wings and tail;  
+1. Secure combat board to the base via 3D printed mounts, the board shall be centered;
+2. Glue sensor holders to each side of fuselage, roughly between wings and tail;  
   _alternatively you can always glue sensors to fuselage directly_
-- Cut foam under the sensor holders;
-- With help of included wires, connect sensors to the combat board and secure sensors in place;
-- Make holes in foam of each wing, 4mm diameter, going from leading edge to servo canal;  
+3. Cut foam under the sensor holders;
+4. With help of included wires, connect sensors to the combat board and secure sensors in place;
+5. Make holes in foam of each wing, 4mm diameter, going from leading edge to servo canal;  
   _use a screwdriver, works great_
-- Carefully pick foam from inside the wings, around the holes, making space for infrared guns;
-- Connect guns to servo wires and insert them all way into wings from servo canal's side, so the gun domes sticks out the leading edge of the wings;
-- Connect guns to the combat board;
-- Connect HC-12 board to the combat board;
-- Connect a servo output either from flight controller or directly from receiver to the trigger pin of the combat board;
-- Connect air unit's RX/TX wires to combat board's MSP pins;  
+6. Carefully pick foam from inside the wings, around the holes, making space for infrared guns;
+7. Connect guns to servo wires and insert them all way into wings from servo canal's side, so the gun domes sticks out the leading edge of the wings;
+8. Connect guns to the combat board;
+9. Connect HC-12 board to the combat board;
+10. Connect a servo output either from flight controller or directly from receiver to the trigger pin of the combat board;
+11. Connect air unit's RX/TX wires to combat board's MSP pins;  
   _it is possible to add flight controller's OSD, this requires moving HC-12 board to I2C pins and connecting FC MSP to combat board's HC-12 pins_  
-- See [wiring diagrams on fpv combat wiki](https://github.com/FPV-Combat/Main_board_v2/wiki/Wiring-diagrams-for-V2.6)
-- Power combat board from flight controller's VBAT or battery directly.
+12. See [wiring diagrams on fpv combat wiki](https://github.com/FPV-Combat/Main_board_v2/wiki/Wiring-diagrams-for-V2.6)
+13. Power combat board from flight controller's VBAT or battery directly.
 
 ### Use
 
