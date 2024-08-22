@@ -7,8 +7,16 @@ After every step you have a functional model with some new features added.
 
 This is bare base model, just add your favourite receiver, battery and go flying LOS.
 
-<img src="img/FL_Fw190_Dora_850mm.jpg" width="45%">
-<img src="img/Batteries.jpg" width="40%">
+<table>
+  <tr>
+    <td width="45%">
+      <img src="img/FL_Fw190_Dora_850mm.jpg">    
+    </td>
+    <td width="40%">
+      <img src="img/Batteries.jpg">    
+    </td>
+  </tr>
+</table>
 
 ### Parts
 - Frame (assembled with servos, esc and motor): [FlightLine Fw 190 D-9 Dora, 850mm](https://www.motionrc.eu/products/flightline-fw-190-d-9-dora-850mm-33-wingspan-pnp-flw102p);
@@ -29,10 +37,19 @@ This step is optional, but recommended.
 Flight controller's main feature I use is auto-launch.  
 Crashes and bad landings do happen in FPV combats, drone motors and props usually survive such events w/o any damage, while regular plane motors often end up with a bend shaft.
 
-<img src="img/Spinner_assembled.jpg"  width="15%">
-<img src="img/Spinner_open.jpg"  width="15%">
-<img src="img/Assembly_top.jpg"  width="15%">
-
+<table>
+  <tr>
+    <td width="15%">
+      <img src="img/Spinner_assembled.jpg">
+    </td>
+    <td width="15%">
+      <img src="img/Spinner_open.jpg">
+    </td>
+    <td width="15%">
+      <img src="img/Assembly_top.jpg">
+    </td>
+  </tr>
+</table>
 
 ### Parts
 - Motor: Any drone motor for 6s (1300-1700kv), for example [Emax ECO II Series 2807](https://droneit.se/product/emax-eco-ii-series-2807-3-6s/)
@@ -69,16 +86,36 @@ Crashes and bad landings do happen in FPV combats, drone motors and props usuall
 
 Enhance your experience, feel like you sit in the cockpit!  
 
-<img src="img/Assembly_right.jpg" width="15%">
-<img src="img/Assembly_left.jpg"  width="15%">
-<img src="img/Closeup_right.jpg"  width="15%">
-<img src="img/Closeup_left.jpg"  width="15%">
-
-<img src="img/Cockpit_camera.jpg"  width="15%">
-<img src="img/Cockpit_closeup.jpg"  width="15%">
-<img src="img/Cockpit_side.jpg"  width="15%">
-<img src="img/Cockpit_inside.jpg"  width="15%">
-
+<table>
+  <tr>
+    <td width="15%">
+      <img src="img/Assembly_right.jpg">
+    </td>
+    <td width="15%">
+      <img src="img/Assembly_left.jpg">
+    </td>
+    <td width="15%">
+      <img src="img/Closeup_right.jpg">
+    </td>
+    <td width="15%">
+      <img src="img/Closeup_left.jpg">
+    </td>
+  </tr>
+  <tr>
+    <td width="15%">
+      <img src="img/Cockpit_camera.jpg">
+    </td>
+    <td width="15%">
+      <img src="img/Cockpit_closeup.jpg">
+    </td>
+    <td width="15%">
+      <img src="img/Cockpit_side.jpg">
+    </td>
+    <td width="15%">
+      <img src="img/Cockpit_inside.jpg">
+    </td>
+  </tr>
+</table>
 
 ### Parts
 - Digital video system: one of DJI, Walksnail or HDZero;  
@@ -117,13 +154,34 @@ Time to add FPV Combat system.
 
 <img src="../FPV Combat/img/logo.gif" width="60%">
 
-<img src="img/Sensor_installed.jpg"  width="15%">
-<img src="img/Sensor_mount.jpg"  width="15%">
-
-<img src="img/Gun_screwdriver.jpg"  width="15%">
-<img src="img/Gun_hole.jpg"  width="15%">
-<img src="img/Gun_top.jpg"  width="15%">
-<img src="img/Gun_bottom.jpg"  width="15%">
+<table>
+  <tr>
+    <td width="15%">
+      <img src="img/Sensor_installed.jpg">
+    </td>
+    <td width="15%">
+      <img src="img/Sensor_mount.jpg">
+    </td>
+    <td width="15%">
+    </td>
+    <td width="15%">
+    </td>
+  </tr>
+  <tr>
+    <td width="15%">
+      <img src="img/Gun_screwdriver.jpg">
+    </td>
+    <td width="15%">
+      <img src="img/Gun_hole.jpg">
+    </td>
+    <td width="15%">
+      <img src="img/Gun_top.jpg">
+    </td>
+    <td width="15%">
+      <img src="img/Gun_bottom.jpg">
+    </td>
+  </tr>
+</table>
 
 ### Parts
 - [FPV Combat board](https://fpv-combat.com/);
