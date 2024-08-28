@@ -18,7 +18,7 @@ timer_output_mode 3 MOTORS
 timer_output_mode 4 SERVOS
 
 # Outputs [servo]
-servo 3 1000 2000 1500 -100
+servo 3 1000 2000 1500 -33
 servo 4 1000 2000 1500 -100
 servo 5 732 2268 1500 100
 servo 6 819 2181 1500 100
@@ -110,10 +110,10 @@ osd_layout 1 1 12 0 V
 set gyro_main_lpf_hz = 25
 set dynamic_gyro_notch_q = 250
 set dynamic_gyro_notch_min_hz = 30
-set gyro_zero_x = -4
-set gyro_zero_y = -10
+set gyro_zero_x = -3
+set gyro_zero_y = -11
 set gyro_zero_z = -2
-set ins_gravity_cmss =  978.825
+set ins_gravity_cmss =  979.257
 set acc_hardware = ICM42605
 set acczero_y = -3
 set acczero_z = -3

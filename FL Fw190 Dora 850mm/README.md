@@ -34,8 +34,8 @@ Fly LOS, enjoy the model!
 ## Step 1: Use Drone motor and Flight Controller (optional)
 
 This step is optional, but recommended.  
-Flight controller's main feature I use is auto-launch.  
-Crashes and bad landings do happen in FPV combats, drone motors and props usually survive such events w/o any damage, while regular plane motors often end up with a bend shaft.
+**Flight controller** is good to have for convenience features like **auto-launch**.  
+**Drone motor** survives crashes and bad landings much better than stock motor which often ends up with a **bent shaft**.
 
 <table>
   <tr>
@@ -54,17 +54,18 @@ Crashes and bad landings do happen in FPV combats, drone motors and props usuall
 ### Parts
 - Motor: Any drone motor for 6s (1300-1700kv), for example [Emax ECO II Series 2807](https://droneit.se/product/emax-eco-ii-series-2807-3-6s/)
 - Propeller: Any 7-8inch 3-blade 4-6 pitch drone propeller, for example: [Gemfan Cinelifter 8040-3](https://droneit.se/product/gemfan-cinelifter-8040-3-for-cinelifter-freestyle/)
-- Spinner: 3D printed in black PLA, see STL folder.
+- Spinner: 3D printed in black PLA, see `stl` folder.
 - ESC: Either re-use stock ESC or replace it with some 35-45A drone ESC (compact), for example [Aikon AK32 35A 2-6S](https://www.elefun.se/p/prod.aspx?v=40585)
 - Flight Controller
   - [Matek F411-WTE](https://www.mateksys.com/?portfolio=f411-wte) ( [Buy](https://www.elefun.se/p/prod.aspx?v=56505) )
   - [SpeedyBee F405 WING MINI](https://www.speedybee.com/speedybee-f405-wing-mini-fixed-wing-flight-controller/) ( [Buy1](https://droneit.se/product/speedybee-f405-wing-mini-easy-fly-fixed-wing-flight-controller/), [Buy2](https://www.elefun.se/p/prod.aspx?v=63418) )
-- Base: 3D printed base to mount electronics to, see "stl" folder;
-- FC mount: 3D printed FC mount, see "Rail System" project's "stl" folder;
+- Base: 3D printed base to mount electronics to, see `stl` folder;
+- FC mount: 3D printed FC mount, see "Rail System" project's `stl` folder;
 
 ### Assembly
 
-1. Prepare all necessary 3D printed parts;
+1. Prepare all necessary 3D printed parts;  
+   _All parts can be printed without supports!_
 2. Remove stock motor, replace with a drone motor, connected to ESC of choice;
 3. Spinner and propeller
    1. Install propeller on motor;
@@ -76,7 +77,9 @@ Crashes and bad landings do happen in FPV combats, drone motors and props usuall
 6. Install flight controller on 3D printed base with help of 3D printed brackets;
 7. Put the base with FC into fuselage;
 8. Connect ESC, servos and receiver;
-9. Flash INAV to FC and configure it (see FC folder for INAV dumps) -- you can use DSHOT protocol only with drone ESC!
+9. Flash INAV to FC and configure it (see `inav` folder for configuration dumps)  
+   _Use DSHOT protocol only with drone ESC!_  
+   _Re-calibrate accelerometer for your flight controller!_
 
 ### Use
 
@@ -120,7 +123,7 @@ Enhance your experience, feel like you sit in the cockpit!
 ### Parts
 - Digital video system: one of DJI, Walksnail or HDZero;  
   _I use [Vista](https://www.elefun.se/p/prod.aspx?v=62406) air unit for the rest of this build guide_
-- Camera gimbal: 3D printed and assembled [Micro Camera Gimbal](https://cults3d.com/en/3d-model/gadget/micro-camera-gimbal-ysoldak);  
+- Camera gimbal: 3D printed and assembled [Micro Camera Gimbal](https://cults3d.com/en/3d-model/gadget/micro-camera-gimbal-ysoldak) ( [Buy](https://www.etsy.com/se-en/listing/1572644964/fpv-camera-gimbal-for-micro-servos) );  
   _you'll need two high performance micro servos, such as Savöx SH-0350, TowerPro MG90S or Emax ES08MDII_
 - [Head tracking](https://github.com/ysoldak/HeadTracker) system;  
   _or just use your radio's potentiometers_
@@ -152,7 +155,7 @@ Enhance your experience, feel like you sit in the cockpit!
 
 Time to add FPV Combat system.
 
-<img src="../FPV Combat/img/logo.gif" width="60%">
+<a href="https://fpv-combat.com/"><img src="../FPV Combat/img/logo.gif" width="60%"></a>
 
 <table>
   <tr>
