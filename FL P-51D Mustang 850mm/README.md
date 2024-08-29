@@ -1,9 +1,9 @@
-# FlightLine Fw190 D-9 Dora, 850mm
+# FlightLine P-51D Mustang, 850mm
 
 This document walks you through the process of converting very simple 850mm warbird foam frame to FPV Combat ready plane.  
 After every step you have a functional model with some new features added.
 
-See also [FlightLine P-51D Mustang, 850mm](../FL%20P-51D%20Mustang%20850mm/)
+See also [FlightLine Fw190 Dora, 850mm](../FL%20Fw190%20Dora%20850mm/)
 
 ## Step 0: Base
 
@@ -12,16 +12,16 @@ This is bare base model, just add your favourite receiver, battery and go flying
 <table>
   <tr>
     <td width="45%">
-      <img src="img/FL_Fw190_Dora_850mm.jpg">    
+      <img src="img/FL_P-51D_Mustang_850mm.jpg">    
     </td>
     <td width="40%">
-      <img src="img/Batteries.jpg">    
+      <img src="../FL Fw190 Dora 850mm/img/Batteries.jpg">    
     </td>
   </tr>
 </table>
 
 ### Parts
-- Frame (assembled with servos, esc and motor): [FlightLine Fw 190 D-9 Dora, 850mm](https://www.motionrc.eu/products/flightline-fw-190-d-9-dora-850mm-33-wingspan-pnp-flw102p);
+- Frame (assembled with servos, esc and motor): [FlightLine Fw 190 D-9 Dora, 850mm](https://www.motionrc.eu/products/flightline-p-51d-mustang-850mm-33-wingspan-pnp-flw101p);
 - Receiver: compatible with your system, I use [FrSky Archer Plus R6](https://www.elefun.se/p/prod.aspx?v=59956);
 - Battery: Any cheap 1500-2200mAh 4S drone battery.
 
@@ -38,20 +38,6 @@ Fly LOS, enjoy the model!
 This step is optional, but recommended.  
 **Flight controller** is good to have for convenience features like **auto-launch**.  
 **Drone motor** survives crashes and bad landings much better than stock motor which often ends up with a **bent shaft**.
-
-<table>
-  <tr>
-    <td width="15%">
-      <img src="img/Spinner_assembled.jpg">
-    </td>
-    <td width="15%">
-      <img src="img/Spinner_open.jpg">
-    </td>
-    <td width="15%">
-      <img src="img/Assembly_top.jpg">
-    </td>
-  </tr>
-</table>
 
 ### Parts
 - Motor: Any drone motor for 6s (1300-1700kv), for example [Emax ECO II Series 2807](https://droneit.se/product/emax-eco-ii-series-2807-3-6s/)
@@ -94,30 +80,16 @@ Enhance your experience, feel like you sit in the cockpit!
 <table>
   <tr>
     <td width="15%">
-      <img src="img/Assembly_right.jpg">
+      <img src="img/FPV_setup.jpg">
     </td>
     <td width="15%">
-      <img src="img/Assembly_left.jpg">
+      <img src="img/Assembled_inside.jpg">
     </td>
     <td width="15%">
-      <img src="img/Closeup_right.jpg">
+      <img src="img/Cockpit_front.jpg">
     </td>
     <td width="15%">
-      <img src="img/Closeup_left.jpg">
-    </td>
-  </tr>
-  <tr>
-    <td width="15%">
-      <img src="img/Cockpit_camera.jpg">
-    </td>
-    <td width="15%">
-      <img src="img/Cockpit_closeup.jpg">
-    </td>
-    <td width="15%">
-      <img src="img/Cockpit_inside.jpg">
-    </td>
-    <td width="15%">
-      <img src="img/Assembly_schema.png">
+      <img src="img/Cockpit_side.jpg">
     </td>
   </tr>
 </table>
@@ -129,28 +101,25 @@ Enhance your experience, feel like you sit in the cockpit!
   _you'll need two high performance micro servos, such as Savöx SH-0350, TowerPro MG90S or Emax ES08MDII_
 - [Head tracking](https://github.com/ysoldak/HeadTracker) system;  
   _or just use your radio's potentiometers_
-- Standoffs for camera gimbal: 3D printed, 27mm;  
-  _alternatively, combination of 19mm and 8mm metal standoffs_
-- Standoffs for air unit: 3D printed, 2mm;
+- Standoffs for camera gimbal: 3D printed, 22mm;  
+- Standoffs for air unit: 3D printed, 8mm;
 - Cooler fan for air unit: 5v 30x30 cooler fan to prevent air unit overheating inside fuselage;
-- Cooler fan mount: 3D printed;
-- Cockpit frame (optional): 3D printed;
+- Cooler fan mount and antenna holder: 3D printed;
 - M2 bolts varous length.
 
 ### Assembly
 
 1. Prepare camera gimbal, connect camera to the air unit;
-2. Use four M2x18 bolts to secure air unit to the base;  
-   _2mm standoffs go under and fan mount above the air unit_
+2. Use four M2x18 and four M2x6 bolts to secure air unit to the base;  
+   _8mm standoffs go under and fan mount above the air unit_
 3. Attach 5v cooler fan on top of air unit;  
    _tip: air unit antenna can go between air unit and the fan_
-4. Attach camera gimbal to the base on 27mm standoffs;
+4. Attach camera gimbal to the base on 22mm standoffs;
 5. Connect gimbal servos to flight controller;
 6. Connect air unit's MSP cable to flight controller (RX, TX and GND pins);
 7. Power air unit from flight controller VBAT pins;
 8. Power cooler fan with 5v sourced from either receiver or flight controller;
 9. Cut out transparent plastic from cockpit, leaving frame intact;
-10. Optionally, insert 3D printed cockpit into frame to reinforce it;
 10. Carve foam from cockpit to fit camera gimbal and to clear wires comming from the flight controller.
 
 ## Step 3: Add FPV Combat system
@@ -162,28 +131,16 @@ Time to add FPV Combat system.
 <table>
   <tr>
     <td width="15%">
-      <img src="img/Sensor_installed.jpg">
+      <img src="../FL Fw190 Dora 850mm/img/Sensor_installed.jpg">
     </td>
     <td width="15%">
-      <img src="img/Sensor_mount.jpg">
+      <img src="../FL Fw190 Dora 850mm/img/Sensor_mount.jpg">
     </td>
     <td width="15%">
+      <img src="../FL Fw190 Dora 850mm/img/Gun_screwdriver.jpg">
     </td>
     <td width="15%">
-    </td>
-  </tr>
-  <tr>
-    <td width="15%">
-      <img src="img/Gun_screwdriver.jpg">
-    </td>
-    <td width="15%">
-      <img src="img/Gun_hole.jpg">
-    </td>
-    <td width="15%">
-      <img src="img/Gun_top.jpg">
-    </td>
-    <td width="15%">
-      <img src="img/Gun_bottom.jpg">
+      <img src="../FL Fw190 Dora 850mm/img/Gun_hole.jpg">
     </td>
   </tr>
 </table>

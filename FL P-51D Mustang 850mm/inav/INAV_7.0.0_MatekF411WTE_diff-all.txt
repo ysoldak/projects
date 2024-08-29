@@ -1,7 +1,7 @@
 diff all
 
 # version
-# INAV/MATEKF411TE 7.1.2 May 31 2024 / 23:53:43 (4e1e59eb)
+# INAV/MATEKF411TE 7.0.0 Dec  5 2023 / 10:36:06 (895a4f31)
 # GCC-10.3.1 20210824 (release)
 
 # start the command batch
@@ -18,14 +18,11 @@ timer_output_mode 3 MOTORS
 timer_output_mode 4 SERVOS
 
 # Outputs [servo]
-servo 3 1000 2000 1500 -50
-servo 4 1000 2000 1500 -100
+servo 3 1000 2000 1500 50
 servo 5 732 2268 1500 100
 servo 6 819 2181 1500 100
 
 # safehome
-
-# Fixed Wing Approach
 
 # features
 feature -TX_PROF_SEL
@@ -81,20 +78,22 @@ aux 3 21 3 1800 2100
 osd_layout 0 0 42 1 V
 osd_layout 0 1 12 0 H
 osd_layout 0 7 7 1 V
-osd_layout 0 8 22 2 V
+osd_layout 0 8 24 1 V
 osd_layout 0 9 10 19 V
 osd_layout 0 11 20 19 V
 osd_layout 0 12 1 4 H
-osd_layout 0 15 41 9 V
+osd_layout 0 15 40 9 V
 osd_layout 0 16 7 2 H
 osd_layout 0 17 7 1 H
 osd_layout 0 18 7 3 H
 osd_layout 0 25 44 7 H
+osd_layout 0 26 42 10 V
 osd_layout 0 28 36 19 V
 osd_layout 0 30 11 17 V
 osd_layout 0 32 28 19 V
 osd_layout 0 41 46 11 H
 osd_layout 0 42 46 12 H
+osd_layout 0 86 37 1 H
 osd_layout 1 0 23 0 V
 osd_layout 1 1 12 0 V
 
@@ -104,26 +103,23 @@ osd_layout 1 1 12 0 V
 
 # Programming: PID controllers
 
-# OSD: custom elements
-
 # master
 set gyro_main_lpf_hz = 25
 set dynamic_gyro_notch_q = 250
 set dynamic_gyro_notch_min_hz = 30
-set gyro_zero_x = -3
-set gyro_zero_y = -11
-set gyro_zero_z = -2
-set ins_gravity_cmss =  979.257
-set acc_hardware = ICM42605
-set acczero_y = -3
-set acczero_z = -3
-set accgain_x = 4079
-set accgain_y = 4090
-set accgain_z = 4078
+set gyro_zero_x = 2
+set gyro_zero_y = 2
+set ins_gravity_cmss =  978.283
+set acc_hardware = BMI270
+set acczero_x = -2
+set acczero_y = -19
+set acczero_z = 10
+set accgain_x = 4066
+set accgain_y = 4058
+set accgain_z = 4048
 set align_mag = CW270FLIP
 set mag_hardware = NONE
 set baro_hardware = SPL06
-set rc_filter_auto = OFF
 set serialrx_provider = SBUS
 set motor_pwm_protocol = DSHOT300
 set bat_voltage_src = SAG_COMP
@@ -145,7 +141,7 @@ set osd_left_sidebar_scroll = ALTITUDE
 set osd_home_position_arm_screen = OFF
 set osd_pan_servo_index = 5
 set osd_pan_servo_pwm2centideg = 18
-set name = FL FW190
+set name = FL P-51D
 
 # mixer_profile
 mixer_profile 1

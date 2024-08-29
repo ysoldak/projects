@@ -6,3 +6,4 @@
 
 ## Build guides
 - [FlightLine Fw190 Dora 850mm + FPV Combat](./FL%20Fw190%20Dora%20850mm/README.md)
+- [FlightLine P-51D Mustang 850mm + FPV Combat](./FL%20P-51D%20Mustang%20850mm/README.md)
