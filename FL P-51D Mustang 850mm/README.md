@@ -21,7 +21,7 @@ This is bare base model, just add your favourite receiver, battery and go flying
 </table>
 
 ### Parts
-- Frame (assembled with servos, esc and motor): [FlightLine Fw 190 D-9 Dora, 850mm](https://www.motionrc.eu/products/flightline-p-51d-mustang-850mm-33-wingspan-pnp-flw101p);
+- Frame (assembled with servos, esc and motor): [FlightLine P-51D Mustang, 850mm](https://www.motionrc.eu/products/flightline-p-51d-mustang-850mm-33-wingspan-pnp-flw101p);
 - Receiver: compatible with your system, I use [FrSky Archer Plus R6](https://www.elefun.se/p/prod.aspx?v=59956);
 - Battery: Any cheap 1500-2200mAh 4S drone battery.
 
