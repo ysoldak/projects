@@ -112,10 +112,10 @@ Enhance your experience, feel like you sit in the cockpit!
       <img src="img/Cockpit_closeup.jpg">
     </td>
     <td width="15%">
-      <img src="img/Cockpit_side.jpg">
+      <img src="img/Cockpit_inside.jpg">
     </td>
     <td width="15%">
-      <img src="img/Cockpit_inside.jpg">
+      <img src="img/Assembly_schema.png">
     </td>
   </tr>
 </table>
